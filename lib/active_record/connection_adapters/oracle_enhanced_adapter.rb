@@ -323,7 +323,7 @@ module ActiveRecord
         :integer     => { :name => "NUMBER", :limit => 38 },
         :float       => { :name => "NUMBER" },
         :decimal     => { :name => "DECIMAL" },
-        :datetime    => { :name => "DATE" },
+        :datetime    => { :name => "TIMESTAMP" },
         # changed to native TIMESTAMP type
         # :timestamp   => { :name => "DATE" },
         :timestamp   => { :name => "TIMESTAMP" },
